@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-08" />
+    <title>A Föld sivatagai</title>
+    <link rel="stylesheet" type="text/css" href="../asset/css/index.css" />
+    <script type="text/javascript" src="../asset/js/deserts.js"></script>
+</head>
+
+<body>
+
+    <div class="vertical-menu">
+        <a href="#" class="active">Főodal</a>
+        <a href="../site/szahara.html">Szahara</a>
+        <a href="../site/gobi.html">Góbi</a>
+        <a href="../site/thar.html">Thar</a>
+    </div>
+    <h1>A Föld sivatagai</h1>
+
+    <p>A sivatag olyan terület, amelynek vízháztartása állandóan veszteséges.
+        Az ilyen helyeken az éves csapadék általában nem éri el a 250 mm-t.
+        Vannak olyan helyek, ahol évekig nem esik az eső. A szárazság miatt a talaj terméketlen;
+        többnyire csak a kimondottan szárazságtűrő és pozsgás fajok élnek meg itt</p><br>
+
+    <table class="desertTable" style="width: 60%" align="center">
+        <tr>
+            <td>
+                <div class="picture">
+                    <img title="9 200 000 km&#178" src="../asset/img/sahara.jpg" alt="Sahara"
+                        style="width:400;height:200px;">
+                </div>
+            </td>
+            <td>
+                <h3 align="center">Szahara</h3>
+                <ul>
+                    <li>Algéria</li>
+                    <li>Chad</li>
+                    <li>Egyiptom</li>
+                    <li>Marokkó</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h3 align="center">Góbi sivatag</h3>
+                <ul>
+                    <li>Kína</li>
+                    <li>Mongólia</li>
+                </ul>
+            </td>
+            <td>
+                <div class="picture">
+                    <img title="1 295 000 km&#178" src="../asset/img/gobi.jpg" alt="Gobi"
+                        style="width:400px;height:200px;">
+                </div>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <div class="picture">
+                    <img title="250 000 km&#178" src="../asset/img/thar.jpg" alt="Thar"
+                        style="width:400px;height:200px;">
+                </div>
+            </td>
+            <td>
+                <h3 align="center">Thár sivatag</h3>
+                <ul>
+                    <li>India</li>
+                    <li>Pakisztán</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <button type="button" onclick="createDesertTableFromJSON()" value="A Föld további sivatagai">A Föld további
+        sivatagai</button>
+    <p id="desertsData"></p>
+
+
+</body>
+
+</html>
